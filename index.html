@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/png/icon32.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <title>Arrow keys game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="window-game">
+            <div class="menu">
+                <h2 class="title">Игра</h2>
+                <div class="count-items">
+                    <label>Колтчество эллементов<input class="count-inp" type="range" min="4" max="16" value="12"><span id="count-span">2</span></label>
+                </div>
+                <div class="attempts">
+                    <label for="">Количество попыток<input class="attempt-inp" type="range" min="1" max="5" value="3"><span id="attempt-span">2</span></label> 
+                </div>
+                <div class="speed-game">
+                    <h4 class="title-speed">Скорость</h4>
+                    <label><input type="radio" class="speed-menu" name="speed" value="easy" checked>Медленно</label> 
+                    <label><input type="radio" class="speed-menu" name="speed" value="med">Средне</label> 
+                    <label><input type="radio" class="speed-menu" name="speed" value="hard">Быстро</label> 
+                </div>
+                <div class="start-button">
+                    <button class="but" id="but">Старт</button>
+                </div>
+            </div>
+            
+            <div class="hello hide">
+                <div class="wraper">
+                    <progress class="progressbar">
+                </div>
+                <div class="keys">
+                    <ul class="list-keys">
+                    </ul>
+                </div>
+                <div class="hearts"> 
+                    <div class="heart-items"></div>
+                </div> 
+                <div class="info">
+                    <h3 class="info-text">поехали!</h3>
+
+                    <div class="start-button">
+                        <button class="but hide" id="again">начать заново</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

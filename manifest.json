@@ -1,0 +1,25 @@
+{
+    "name": "Arrow keys game",
+    "short_name": "Arrow keys game",
+    "lang": "ru-RU",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "/png/icon32.png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/png/icon64.png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "/png/icon96.png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "/png/icon256.png",
+        "sizes": "256x256"
+      }
+    ]
+  }

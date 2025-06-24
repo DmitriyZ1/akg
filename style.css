@@ -1,0 +1,169 @@
+.container {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.window-game{
+  width: 600px;
+  height: 600px;
+  background-color: blanchedalmond;
+  border: 1px solid rgb(124, 124, 124);
+  box-sizing: border-box;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.hello{
+  position: relative;
+}
+
+.menu{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wraper{
+  position: relative;
+  margin-top: 30px;
+}
+
+.progressbar{
+  margin: 0 auto;
+  display: block;
+  width: 400px;
+  height: 20px;
+}
+
+.list-keys{
+  display: flex;
+}
+
+.item{
+  width: 30px;
+  height: 30px;
+  list-style: none;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red-item{
+  background-color: red;
+}
+
+.info{
+  width: 100%;
+  height: 400px;
+  margin: 100px auto;
+}
+
+.info-text{
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hearts{
+  font-size: 2rem;
+  color: rgb(247, 35, 35);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.heart-items{
+  /* min-width: 200px; */
+  margin: 0 auto;
+}
+
+.heart-items span{
+  display: inline-block;
+  min-width: 35px;
+  min-height: 35px;
+}
+
+.hide{
+  display: none;
+}
+
+.title{
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+.count-items{
+  margin: 50px auto;
+  width: 80%;
+}
+
+.count-items label{
+  font-size: 1.2rem;
+}
+
+.count-items label span{
+  font-size: 1.3rem;
+  color:rgb(1, 1, 128);
+  font-weight: 900;
+}
+
+.count-inp{
+  margin: 0 20px;
+}
+
+.attempts{
+  margin: 30px auto;
+  width: 80%;
+}
+
+.attempts label{
+  font-size: 1.2rem;
+}
+
+.attempts label span{
+  font-size: 1.3rem;
+  color: rgb(116, 0, 0);
+  font-weight: 900;
+}
+
+.attempt-inp{
+  margin: 0 20px;
+}
+
+.title-speed{
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.speed-game label{
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.speed-game{
+  margin: 30px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.start-button{
+  margin: 50px auto;
+  width: 50%;
+  text-align: center;
+}
+
+.but{
+  height: 50px;
+  font-size: 2rem;
+  background-color: rgb(255, 86, 86);
+  cursor: pointer;
+}
